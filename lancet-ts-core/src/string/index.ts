@@ -2,7 +2,6 @@
  * String utility functions.
  */
 export const StringUtils = {
-  
   /**
    * Converts the first character of string to upper case.
    * @param str The string to convert.
