@@ -1,0 +1,47 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build Outputs
+dist
+build
+out
+coverage
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# TurboRepo
+.turbo
+
+# Temporary
+tmp
+temp
+*.tmp
+
+# Documentation
+.vitepress/dist
+.vitepress/cache
+
+# Misc
+.env
+.env.local
+.env.*.local
