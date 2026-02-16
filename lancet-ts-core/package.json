@@ -1,5 +1,5 @@
 {
-  "name": "lancet-ts-core",
+  "name": "@qy/lancet-ts-core",
   "version": "1.0.0",
   "type": "module",
   "exports": {

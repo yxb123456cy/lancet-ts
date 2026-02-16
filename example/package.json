@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "@qy/lancet-ts-example",
   "version": "1.0.0",
   "description": "",
   "main": "src/main.ts",
