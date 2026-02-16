@@ -1,11 +1,16 @@
 {
   "name": "@qy/lancet-ts-example",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "src/main.ts",
   "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.14.0"
+  "packageManager": "pnpm@10.14.0",
+  "dependencies": {
+    "@qy/lancet-ts-core": "workspace:*"
+  },
+  "devDependencies": {}
 }
