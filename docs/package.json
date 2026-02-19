@@ -1,18 +1,24 @@
 {
-  "name": "@qy/lancet-ts-docs",
+  "name": "rs-docs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "build": "rspress build",
+    "check": "biome check --write",
+    "dev": "rspress dev",
+    "format": "biome format --write",
+    "preview": "rspress preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.14.0",
+  "dependencies": {
+    "@rspress/core": "^2.0.2"
+  },
   "devDependencies": {
-    "vitepress": "2.0.0-alpha.16"
+    "@biomejs/biome": "2.3.8",
+    "@types/node": "^22.8.1",
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   }
 }
