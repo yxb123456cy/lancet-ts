@@ -1,1 +1,1 @@
-export const SupaBaseUtils = {};
+export const SupaBaseUtils = {}

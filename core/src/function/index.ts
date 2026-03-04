@@ -1,1 +1,1 @@
-export const FuncUtils = {};
+export const FuncUtils = {}

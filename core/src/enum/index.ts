@@ -1,1 +1,1 @@
-export const EnumUtils = {};
+export const EnumUtils = {}

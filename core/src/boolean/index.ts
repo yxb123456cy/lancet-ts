@@ -1,1 +1,1 @@
-export const BooleanUtils = {};
+export const BooleanUtils = {}

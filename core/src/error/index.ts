@@ -1,1 +1,1 @@
-export const ErrorUtils = {};
+export const ErrorUtils = {}

@@ -1,1 +1,1 @@
-export const CookieUtils = {};
+export const CookieUtils = {}

@@ -1,1 +1,1 @@
-export const TypeUtils = {};
+export const TypeUtils = {}

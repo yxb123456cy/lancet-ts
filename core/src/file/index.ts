@@ -1,1 +1,1 @@
-export const FileUtils = {};
+export const FileUtils = {}

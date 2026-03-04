@@ -1,1 +1,1 @@
-export const NetUtils = {};
+export const NetUtils = {}

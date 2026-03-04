@@ -1,1 +1,1 @@
-export const MapUtils = {};
+export const MapUtils = {}

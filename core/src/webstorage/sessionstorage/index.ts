@@ -1,1 +1,1 @@
-export const SessionStorageUtils = {};
+export const SessionStorageUtils = {}

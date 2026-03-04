@@ -1,1 +1,1 @@
-export const SystemUtils = {};
+export const SystemUtils = {}

@@ -25,7 +25,7 @@
     "test:watch": "rstest --watch"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.3.14",
+    "@biomejs/biome": "2.4.4",
     "@rslib/core": "^0.19.6",
     "@rstest/adapter-rslib": "^0.2.0",
     "@rstest/core": "^0.8.5",

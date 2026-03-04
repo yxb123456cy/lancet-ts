@@ -1,1 +1,1 @@
-export const LocalStorageUtils = {};
+export const LocalStorageUtils = {}

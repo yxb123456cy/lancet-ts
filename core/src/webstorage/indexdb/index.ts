@@ -1,1 +1,1 @@
-export const IndexDBUtils = {};
+export const IndexDBUtils = {}
