@@ -1,7 +1,7 @@
 import { spawnSync } from 'child_process'
 import fs from 'fs'
 import path from 'path'
-
+// npx wrangler deploy
 const root = path.resolve(__dirname, '..')
 
 function run(cmd: string, cwd: string) {
