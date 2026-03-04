@@ -1,15 +1,3 @@
-// function init() {
-//     // 执行core目录中的pnpm format-> pnpm lint-> pnpm test -> pnpm build
-//     // 执行core目录中的pnpm gen:docs
-//     // 将core目录中的docs目录中variables目录的所有文件复制到docs目录的docs目录中的api目录下的core目录中;
-//     // 并根据复制的文件的名称(去掉.md后缀)的内容写进一个文件中(_meta.json)并放到该目录中;
-//     // 执行Rspress目录中的pnpm build -> 打包到doc_build目录中;
-//     // 然后再执行部署;
-// }
-
-// init()
-
-
 import { spawnSync } from 'child_process'
 import fs from 'fs'
 import path from 'path'
