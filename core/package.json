@@ -22,7 +22,8 @@
     "dev": "rslib build --watch",
     "format": "biome format --write",
     "test": "rstest",
-    "test:watch": "rstest --watch"
+    "test:watch": "rstest --watch",
+    "gen:docs": "typedoc"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.4",
@@ -30,6 +31,8 @@
     "@rstest/adapter-rslib": "^0.2.0",
     "@rstest/core": "^0.8.5",
     "@types/node": "^24.10.13",
+    "typedoc": "^0.28.17",
+    "typedoc-plugin-markdown": "^4.10.0",
     "typescript": "^5.9.3"
   },
   "private": true

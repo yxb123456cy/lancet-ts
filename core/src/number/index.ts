@@ -1,14 +1,39 @@
 /**
  * 数字工具函数
+ *
+ * 引入
+ *
+ * ```ts
+ * import { NumberUtils } from '@qy/lancet-ts-core'
+ * ```
+ *
+ * 函数列表
+ *
+ * | 函数名 | 描述 |
+ * | :--- | :--- |
+ * | randomInt | 生成一个介于 min 和 max 之间的随机整数 |
  */
 export const NumberUtils = {
   /**
    * 生成一个介于 min 和 max 之间的随机整数（包含 min 和 max）
-   * @param {number} min 最小值（包含）
-   * @param {number} max 最大值（包含）
-   * @returns {number} 介于 min 和 max 之间的随机整数
-   * @throws {Error} 如果 min 大于 max
-   * @version 1.0.0
+   *
+   * **类型签名**
+   *
+   * ```ts
+   * function randomInt(min: number, max: number): number
+   * ```
+   *
+   * @param min 最小值（包含）
+   * @param max 最大值（包含）
+   * @returns 介于 min 和 max 之间的随机整数
+   *
+   * @example
+   * ```ts
+   * import { NumberUtils } from '@qy/lancet-ts-core'
+   *
+   * const random = NumberUtils.randomInt(1, 10)
+   * console.log(random) // 可能输出: 5
+   * ```
    */
   randomInt(min: number, max: number): number {
     if (min > max) {

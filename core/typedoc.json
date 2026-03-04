@@ -1,0 +1,11 @@
+{
+  "plugin": ["typedoc-plugin-markdown"],
+  "out": "./docs",
+  "entryPoints": ["./src/index.ts"],
+  "hidePageHeader": true,
+  "hideBreadcrumbs": true,
+  "parametersFormat": "Table",
+  "pageTitleTemplates": {
+    "member": "{name}"
+  }
+}
