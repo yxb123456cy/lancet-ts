@@ -8,7 +8,7 @@
 
 - **📚 Rslib** - 基于 Rspack 的库开发工具，提供超快的构建速度。
 - **📖 Rspress** - 基于 Rspack 的静态站点生成器，用于构建高性能的文档站点。
-- **🦀 Biome (RsLint / RsFormat)** - 极速的代码格式化与不仅限于 Lint 的工具链，替代 ESLint + Prettier。
+- **🦀 Biome** - 极速的代码格式化与不仅限于 Lint 的工具链，替代 ESLint + Prettier。
 - **🧪 RsTest** - (Rstest) 现代化的测试框架，确保代码的可靠性。
 - **🩺 RsDoctor** - (Optional) 构建分析工具，用于优化产物与构建性能。
 
@@ -46,8 +46,8 @@ lancet-ts-monorepo/
 
 ```bash
 # 克隆仓库
-git clone <repository-url>
-cd lancet-ts-monorepo
+git clone https://github.com/yxb123456cy/lancet-ts.git
+cd lancet-ts
 
 # 安装依赖
 pnpm install
@@ -120,7 +120,7 @@ pnpm dev
 
 ## 📄 许可证
 
-ISC License
+MIT License
 
 ## 🤝 贡献
 

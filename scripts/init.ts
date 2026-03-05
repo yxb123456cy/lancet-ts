@@ -3,8 +3,8 @@ import fs from 'fs'
 import path from 'path'
 /**
  * 剩余步骤；
- * 1. 集成RsDoctor 以及Github Actions自动产出doctor报告;
- * 2. 将Biome迁移至Rslint
+ * 1. 集成RsDoctor(✅) 以及Github Actions自动产出doctor报告;
+ * 2. 将Biome迁移至Rslint(❌ Rslint不具备format的能力 不进行迁移)
  * 3. RsLib与core模块-package.json调优(✅);NPM包发布;github Actions自动NPM包发布; 
  * 4. Rspress文档站点内容补充;
  * 5. 完善项目README.md文件;

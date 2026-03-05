@@ -1,5 +1,5 @@
 import { defineConfig } from '@rslib/core'
-import { RsdoctorRspackPlugin } from '@rsdoctor/rspack-plugin';
+import { RsdoctorRspackPlugin } from '@rsdoctor/rspack-plugin'
 export default defineConfig({
   lib: [
     {
@@ -17,20 +17,20 @@ export default defineConfig({
       plugins: [
         // 配置Rsdoctor插件;
         process.env.RSDOCTOR === 'true' &&
-        new RsdoctorRspackPlugin({
-          // 插件选项
-          output: {
-            // brier模式
-            mode: 'brief',
-            // 报告输出目录
-            reportDir: '../rsdoctor',
-            options: {
-              // 本地生成html报告
-              // type:['html'],
-              type: ['json'],
+          new RsdoctorRspackPlugin({
+            // 插件选项
+            output: {
+              // brier模式
+              mode: 'brief',
+              // 报告输出目录
+              reportDir: '../rsdoctor',
+              options: {
+                // 本地生成html报告
+                // type:['html'],
+                type: ['json'],
+              },
             },
-          },
-        }),
+          }),
       ],
     },
   },

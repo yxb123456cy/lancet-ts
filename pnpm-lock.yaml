@@ -73,12 +73,6 @@ importers:
         specifier: ^19.2.4
         version: 19.2.4(react@19.2.4)
 
-  example:
-    dependencies:
-      '@qy/lancet-ts-core':
-        specifier: workspace:*
-        version: link:../core
-
 packages:
 
   '@ast-grep/napi-darwin-arm64@0.37.0':
