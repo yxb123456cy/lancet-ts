@@ -12,7 +12,9 @@
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "rslib build",
@@ -35,5 +37,21 @@
     "typedoc-plugin-markdown": "^4.10.0",
     "typescript": "^5.9.3"
   },
-  "private": true
+  "description": "一个基于 Rspack 技术栈构建的现代化 TypeScript 工具函数库，旨在提供高性能、类型安全且易于维护的常用工具函数。",
+  "keywords": [
+    "rspack",
+    "typescript",
+    "utils",
+    "lancet"
+  ],
+  "author": "yxb123456cy <2186256471@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxb123456cy/lancet-ts.git"
+  },
+  "homepage": "https://lancet-ts.pages.dev/guide/index.html",
+  "bugs": {
+    "url": "https://github.com/yxb123456cy/lancet-ts/issues"
+  }
 }
