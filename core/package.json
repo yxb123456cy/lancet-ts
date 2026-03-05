@@ -25,14 +25,17 @@
     "format": "biome format --write",
     "test": "rstest",
     "test:watch": "rstest --watch",
-    "gen:docs": "typedoc"
+    "gen:docs": "typedoc",
+    "build:rsdoctor": "cross-env RSDOCTOR=true rslib build"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.4",
+    "@rsdoctor/rspack-plugin": "^1.5.3",
     "@rslib/core": "^0.19.6",
     "@rstest/adapter-rslib": "^0.2.0",
     "@rstest/core": "^0.8.5",
     "@types/node": "^24.10.13",
+    "cross-env": "^10.1.0",
     "typedoc": "^0.28.17",
     "typedoc-plugin-markdown": "^4.10.0",
     "typescript": "^5.9.3"

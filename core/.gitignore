@@ -4,6 +4,7 @@ coverage
 
 # Dependencies
 node_modules
+rsdoctor
 
 # Turbo
 .turbo
