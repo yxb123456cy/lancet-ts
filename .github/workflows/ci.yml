@@ -43,6 +43,7 @@ jobs:
         run: |
           pnpm install
           pnpm run build
+          pnpm run build:rsdoctor
 
       - name: Bundle Analysis
         uses: web-infra-dev/rsdoctor-action@main

@@ -38,6 +38,9 @@
     },
     "format": {
       "outputs": []
+    },
+    "build:rsdoctor": {
+      "cache": false
     }
   }
 }
