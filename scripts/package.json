@@ -9,6 +9,6 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@changgang-xiaoye/lancet-ts-core": "^1.0.8"
+    "@changgang-xiaoye/lancet-ts-core": "^1.0.9"
   }
 }

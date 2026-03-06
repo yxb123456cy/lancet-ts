@@ -3,11 +3,11 @@ import { defineConfig } from '@rspress/core'
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
-  title: 'My Site',
-  icon: '/rspress-icon.png',
+  title: 'Lancet-TS-Docs',
+  icon: '/Tools.svg',
   logo: {
-    light: '/rspress-light-logo.png',
-    dark: '/rspress-dark-logo.png',
+    light: '/Tools.svg',
+    dark: '/Tools.svg',
   },
   themeConfig: {
     socialLinks: [
