@@ -1,6 +1,6 @@
 {
   "name": "@changgang-xiaoye/lancet-ts-monorepo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "scripts": {
     "build": "turbo run build",
