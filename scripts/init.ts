@@ -13,7 +13,7 @@ import path from 'path'
  * 8. 函数库补充;
  */
 const root = path.resolve(__dirname, '..')
-
+// git push origin main --follow-tags
 function run(cmd: string, cwd: string) {
     console.log(`\n🚀 ${cmd}`)
     const [command, ...args] = cmd.split(' ')

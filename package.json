@@ -10,7 +10,10 @@
     "check-types": "turbo run check-types",
     "format": "turbo run format",
     "prepare": "husky",
-    "build:rsdoctor": "turbo run build:rsdoctor"
+    "build:rsdoctor": "turbo run build:rsdoctor",
+    "release:changelog:major": "standard-version --release-as major",
+    "release:changelog:minor": "standard-version --release-as minor",
+    "release:changelog:patch": "standard-version --release-as patch"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +21,7 @@
   "packageManager": "pnpm@10.14.0",
   "devDependencies": {
     "husky": "^9.1.7",
+    "standard-version": "^9.5.0",
     "turbo": "^2.8.9"
   }
 }
