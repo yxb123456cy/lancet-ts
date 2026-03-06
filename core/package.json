@@ -2,6 +2,9 @@
   "name": "@qy/lancet-ts-core",
   "version": "1.0.0",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
