@@ -11,9 +11,10 @@
     "format": "turbo run format",
     "prepare": "husky",
     "build:rsdoctor": "turbo run build:rsdoctor",
-    "release:changelog:major": "standard-version --release-as major",
-    "release:changelog:minor": "standard-version --release-as minor",
-    "release:changelog:patch": "standard-version --release-as patch"
+    "release": "standard-version --release-as patch --packageFiles core/package.json --bumpFiles core/package.json && git push --follow-tags",
+    "release:changelog:major": "standard-version --release-as major && git push --follow-tags",
+    "release:changelog:minor": "standard-version --release-as minor && git push --follow-tags",
+    "release:changelog:patch": "standard-version --release-as patch && git push --follow-tags"
   },
   "keywords": [],
   "author": "",
