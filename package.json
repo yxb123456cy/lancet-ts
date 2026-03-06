@@ -1,6 +1,6 @@
 {
   "name": "@qy/lancet-ts-monorepo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "scripts": {
     "build": "turbo run build",
